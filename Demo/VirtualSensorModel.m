@@ -1,4 +1,4 @@
-%[text] #     Predicting True Air Speed from Other Sensors
+%[text] # Predicting True Air Speed from Other Sensors
 %[text] This example shows how to use historical data to train a regression model that is capable of predicting the True Air Speed (TAS) of a flight from the measurements of other sensors. Such models can be useful in controls applications where it may be desirable to use a regression model as a nonlinear state estimator for a non-observable or costly-to-observe state.  These types of models can also be used as surrogate models in simulations and trade-studies, in cases where a physics-based model is too complex to create or takes too long to simulate.
 %%
 %[text] ## Import data from Excel
